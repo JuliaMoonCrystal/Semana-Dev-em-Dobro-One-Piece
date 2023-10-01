@@ -10,8 +10,7 @@ main::after {
     left: 0;
     min-height: 100vh;
     width: 80vw;
-
-    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+    background: linear-gradient(-233deg, #020202 40%, rgba(247, 246, 246, 0) 65%) no-repeat;
 }
 
 main .personagem {
@@ -64,6 +63,10 @@ main .personagem .imagem {
     margin-bottom: 35px;
 }
 
+.botoes li:first-child {
+    margin-top: 11rem;
+}
+
 .botoes {
     position: fixed;
     top: 0;
@@ -76,7 +79,10 @@ main .personagem .imagem {
     align-items: center;
     gap: 10px;
     background-color: rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+    max-height: 0px; 
 }
+
 
 .botoes .botao {
     border: none;
